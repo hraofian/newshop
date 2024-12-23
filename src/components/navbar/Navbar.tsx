@@ -23,4 +23,4 @@ function NavBar(){
 
 export default NavBar
 
-// min 6
+// min 6 
