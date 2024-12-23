@@ -16,7 +16,7 @@ function NavBar(){
                 </div>
                 </div>
             </Container>
-            
+              
         </div>
     )
 }
