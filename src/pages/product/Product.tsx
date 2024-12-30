@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import Container from "../../components/container/Container";
+import Button from "../../components/button/Button";
 
 function Product() {
   const params = useParams();
@@ -13,11 +14,18 @@ function Product() {
               className="rounded "
               src="https://m.media-amazon.com/images/I/618pgJjYR3L.__AC_SX300_SY300_QL70_ML2_.jpg"
             />
-             <div className="m-4">
-            <button>Add to cart</button>
+            <div className="m-4">
+              <Button
+                variant="Warning"
+                onClick={() => {
+                  alert("hello");
+                }}
+              >
+                Add to cart
+              </Button>
+            </div>
           </div>
-          </div>
-         
+
           <div className="col-span-10 m-1  bg-slate-400">
             <h1>Title: Galaxy</h1>
             <p>Price: 25$</p>
@@ -36,4 +44,4 @@ function Product() {
 }
 export default Product;
 
-// video6 9min
+// video8 11min
