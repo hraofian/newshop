@@ -15,12 +15,7 @@ function Product() {
               src="https://m.media-amazon.com/images/I/618pgJjYR3L.__AC_SX300_SY300_QL70_ML2_.jpg"
             />
             <div className="m-4">
-              <Button style={{ padding: "6px 12px" }} variant="Warning">
-                Add to cart
-              </Button>
-              <Button variant="danger">Add to cart</Button>
-              <Button variant="primary">Add to cart</Button>
-              <Button variant="success">Add to cart</Button>
+              <Button className="mt-2 w-full" variant="primary">Add to cart</Button>
             </div>
           </div>
 
