@@ -15,13 +15,15 @@ function Product() {
               src="https://m.media-amazon.com/images/I/618pgJjYR3L.__AC_SX300_SY300_QL70_ML2_.jpg"
             />
             <div className="m-4">
-              <Button style={{padding:"6px 12px"}} variant="Warning">Add to cart</Button>
+              <Button style={{ padding: "6px 12px" }} variant="Warning">
+                Add to cart
+              </Button>
               <Button variant="danger">Add to cart</Button>
               <Button variant="primary">Add to cart</Button>
               <Button variant="success">Add to cart</Button>
-            </div> 
+            </div>
           </div>
- 
+
           <div className="col-span-7 m-1  bg-slate-400">
             <h1>Title: Galaxy</h1>
             <p>Price: 25$</p>
@@ -40,4 +42,4 @@ function Product() {
 }
 export default Product;
 
-// video8 11min
+// video8 finish
