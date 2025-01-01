@@ -6,13 +6,13 @@ type TButton = ComponentProps<"button"> & {
   variant: TVariant;
 };
 
-function Button({ children, variant, ...rest }: TButton) {
+function Button({ children, variant,style, ...rest }: TButton) {
   return (
-    <button {...rest} style={{ ...checkVariant(variant) }}>
+    <button {...rest} style={{ ...style, ...checkVariant(variant) }}>
       {children}
     </button>
   );
-}
+} 
 
 export default Button;
 
